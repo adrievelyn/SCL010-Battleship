@@ -24,7 +24,7 @@
 h1, .title  {
 	font-family: 'Risque','Bungee Inline', Arial;
     color: #F9AB82;
-    font-size: 24px;
+    font-size: 20px;
     display: flex;
     margin-top: 30px;
     margin-left: 11%;
@@ -75,7 +75,10 @@ h1, .title  {
 	background-color: #2D90AD;
 }
 
-
+.Ships {
+	display: flex;
+	margin-left: 15%;
+}
 
 
 

@@ -12,10 +12,11 @@ export default class AllShips extends Component {
     };
   }
 
+
   static get defaultProps() {
     return {
       orientation: 'portrait',
-      size: 40
+      size: 30
     };
   }
 

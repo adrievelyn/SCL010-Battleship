@@ -8,6 +8,7 @@ import ship5 from './img/submarine_05.gif';
 
 export default class Submarine extends Ship {
 
+
   buildShip() {
     return [
       ship1,
@@ -17,4 +18,6 @@ export default class Submarine extends Ship {
       ship5
     ];
   }
+
+
 }

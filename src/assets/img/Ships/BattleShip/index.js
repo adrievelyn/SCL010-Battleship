@@ -1,8 +1,8 @@
 import Ship from './../allShips';
-import ship1 from '../../../img/vikingo.png';
-import ship2 from '../../../img/vikingo.png';
-import ship3 from '../../../img/vikingo.png';
-import ship4 from '../../../img/vikingo.png';
+import ship1 from './img/battleship_01.gif';
+import ship2 from './img/battleship_02.gif';
+import ship3 from './img/battleship_03.gif';
+import ship4 from './img/battleship_04.gif';
 
 export default class BattleShip extends Ship {
 

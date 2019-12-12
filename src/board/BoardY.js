@@ -1,5 +1,6 @@
 import React from 'react';
-import Square from './Square'
+import Square from './Square';
+import allShips from '../assets/img/Ships/allShips.css';
 
 class BoardY extends React.Component {
   constructor(props) {
@@ -29,7 +30,7 @@ class BoardY extends React.Component {
     const status = 'Player Y: ' + (this.state.xIsNext ? 'X' : 'O');
 
     return (
-      <div>
+      <div className='Board'>
         <div className="status">{status}</div>
         <div className="board-row">
           {this.renderSquare(0)}

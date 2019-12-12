@@ -273,7 +273,7 @@ class BoardX extends React.Component {
 		})}
 		
     return (
-      <div id='board'>
+      <div className='Board1'>
         <div className="status">{status}</div>
         <div className="board-row">
           {this.renderSquare(0)}

@@ -4,6 +4,7 @@ import PatrolBoat from '../assets/img/Ships/PatrolBoat';
 import Destroyer from '../assets/img/Ships/Destroyer';
 import Cruiser from '../assets/img/Ships/Cruiser';
 import BattleShip from '../assets/img/Ships/BattleShip';
+import BattleField1 from '../assets/css/BattleField1.css';
 import Hippo from '../assets/img/hippo.png';
 
 
@@ -36,7 +37,7 @@ class Ships extends React.Component {
     
 
 
-  		<div>
+  		<div className='Ships'>
     		<Submarine/>
     		<BattleShip/>
     		<Cruiser/>
