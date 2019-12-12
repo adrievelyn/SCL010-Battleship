@@ -24,6 +24,8 @@ class BattleField1 extends React.Component {
 
 				
 			</div>
+		
+
 	
 
 
