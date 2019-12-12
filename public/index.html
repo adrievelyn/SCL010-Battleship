@@ -3,6 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -28,7 +33,27 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div class="container">
+      <div class="row">
+        <div id="score"></div>
+      </div>
+      <div class="row">
+        <div class="col-s">
+          <div id="shipsX"></div>
+        </div>
+        <div class="col-sm">
+          <div id="boardx"></div>
+        </div>
+        <div class="col-sm">
+          <div id="boardy"></div>
+        </div>
+        <div class="col-s">
+          <div id="shipsY"></div>
+        </div>
+      </div>
+    </div>
+    
+    
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

@@ -1,0 +1,121 @@
+
+/*.bg{
+   background: url('./../../img/The-Berk-Island.png');
+   background-repeat: no-repeat;
+  
+}*/
+
+.container{
+	margin:0;
+	width: 100%;
+	height: 100%;
+}
+
+.imgGamers{
+	text-align: center;
+	margin-right: 25%;
+}
+
+.general {
+  
+   display: flex;
+}
+
+h1, .title  {
+	font-family: 'Risque','Bungee Inline', Arial;
+    color: #F9AB82;
+    font-size: 24px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 11%;
+
+}
+
+.Vikingo  {
+	margin-left: 20%;
+
+}
+
+.Vikingo2  {
+	margin-left: 10%;
+}
+
+.Vikingo3  {
+	margin-left: 24%;
+}
+
+.Vikingo4  {
+	margin-left: 7%;
+}
+
+.Vikingo5  {
+	margin-left: 7%;
+}
+
+.VikingoGamer {
+	margin-top: 2%;
+}
+
+.VikingoGamer, .VikingoGamer2 {
+	display: flex;
+
+}
+
+.VikingoGamer2{
+	margin-top: 3%;
+}
+
+.Board {
+
+}
+
+.Button{
+	display: inline-flex;
+	margin-left: 20%;
+	background-color: #2D90AD;
+}
+
+
+
+
+
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 800px) {
+ .general  {
+    flex-direction: column-reverse;
+  }
+
+
+
+}
+
+@media screen and (max-width: 650px) {
+ .general  {
+    flex-direction: column-reverse;
+  }
+
+
+
+}
+
+@media screen and (max-width: 450px) {
+ .general  {
+    flex-direction: column-reverse;
+  }
+
+
+
+}
+
+@media screen and (max-width: 250px) {
+ .general  {
+    flex-direction: column-reverse;
+  }
+
+
+}
+
+
+
